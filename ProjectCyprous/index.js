@@ -222,16 +222,3 @@ function showData(data) {
   `;
   document.querySelector(".features").innerHTML = markup;
 }
-
-// async function logJSONData() {
-//   const response = await fetch("https://api.coinlore.net/api/tickers/");
-//   const jsonData = await response.json();
-//   console.log(jsonData);
-// }
-
-// logJSONData();
-// function showData(data) {
-//   console.log(data);
-// }
-
-// showData();
